@@ -1,7 +1,7 @@
 # Cyber Settings
 
 The System Settings application for Cyber Desktop.
-
+also this adds bad apple lol
 ![cyber-settings](screenshots/cyber-settings.png)
 ## Dependencies
 
