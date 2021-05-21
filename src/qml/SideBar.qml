@@ -83,7 +83,12 @@ Item {
             page: "qrc:/qml/BatteryPage.qml"
             iconSource: "qrc:/images/sidebar/battery.svg"
         }
-
+        ListElement {
+            title: qsTr("Bad Apple!!")
+            name: "HelloWorld"
+            page: "qrc:/qml/HelloWorld.qml"
+            iconSource: "qrc:/images/sidebar/language.svg"
+        }
         ListElement {
             title: qsTr("About")
             name: "about"
@@ -149,7 +154,6 @@ Item {
                     anchors.fill: parent
                     anchors.leftMargin: Meui.Units.largeSpacing * 2
                     spacing: Meui.Units.largeSpacing
-
                     Image {
                         id: icon
                         width: 16
